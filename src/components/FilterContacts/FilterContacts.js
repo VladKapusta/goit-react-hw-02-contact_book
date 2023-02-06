@@ -1,4 +1,4 @@
-import { FilterInput } from "./filterContacts.styled";
+import { FilterInput } from "./filterContacts.staled";
 
 
 export const Filter = ({ filter, onChangeFilter }) => {
