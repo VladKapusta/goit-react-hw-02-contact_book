@@ -40,7 +40,7 @@ export class FormAddContact extends Component {
     return (
       <FormContact onSubmit={this.onSubmitForm}>
         <Label>
-          Name
+          <LabelText>Name</LabelText>
           <Input
             autoFocus
             type="text"
@@ -53,7 +53,7 @@ export class FormAddContact extends Component {
           />
         </Label>
         <Label>
-          Number
+          <LabelText>Number</LabelText>
           <Input
             type="tel"
             name="number"

@@ -1,4 +1,3 @@
-// import './button.style.css'
 import { Button } from './button.styled';
 
 export const IconButton = ({ children, onClick, ...allyProps }) => {
