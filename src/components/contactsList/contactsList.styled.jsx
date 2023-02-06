@@ -9,7 +9,7 @@ export const ListContacts = styled.ul`
     margin-bottom: 16px;
   }
 `;
-export const ItemContact = styled.li`
+export const Contact = styled.li`
   display: flex;
   /* flex-direction: row; */
   align-items: center;
