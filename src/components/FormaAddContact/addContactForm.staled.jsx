@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const FormContact = styled.form`
   display: block;
-  margin-bottom: 40px;
 `;
 export const Label = styled.label`
   display: flex;
@@ -25,11 +24,19 @@ export const Input = styled.input`
 `;
 export const ButtonSubmit = styled.button`
   display: block;
+  
   width: 150px;
   padding: 10px;
   margin: auto;
+  margin-top: 30px;
   border-radius: 8px;
   cursor: pointer;
 
   font-size: 16px;
+
+  transition: background-color 350ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  :hover {
+    background-color: rgb(39, 228, 22);
+    color:#fff
+  }
 `;

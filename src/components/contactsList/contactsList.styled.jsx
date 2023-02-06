@@ -11,9 +11,6 @@ export const ListContacts = styled.ul`
 `;
 export const ItemContact = styled.li`
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
-  >:first-child {
-    width: 250px;
-  }
 `;

@@ -1,17 +1,16 @@
 import styled from '@emotion/styled';
+import { IconButton } from 'components/Button/Button';
+
 
 export const TextContent = styled.span`
+width: 250px;
 font-weight: 600;
 font-size: 24px;
 `
-export const DeleteBtn = styled.button`
-display: block;
-margin-left: auto;
-padding: 8px;
-border: none;
-border-radius: 8px;
-cursor: pointer;
-
-background-color: #1b1b1b;
-color: white;
+export const DeleteBtn = styled(IconButton)`
+background-color: #fff;
+:hover{
+    background-color: red;
+    fill: #fff
+}
 `
